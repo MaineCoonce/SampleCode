@@ -2,16 +2,12 @@
 /***********************************************************************
 *    FILE NAME:       collisionmanifold.cpp
 *
-*    DESCRIPTION:     Class to hold the collision information between two
-*					  sprites
+*    DESCRIPTION:     Class to handle the collision interactions between
+*					  two sprites.
 ************************************************************************/
 
 // Physical component dependency
 #include <common/collisionmanifold.h>
-
-// Standard lib dependencies
-
-// Boost lib dependencies
 
 // Game lib dependencies
 #include <2d/spritegroup2d.h>
@@ -30,18 +26,13 @@ using namespace std;
 // disable warning about the use of the "this" pointer in the constructor list
 #pragma warning(disable : 4355)
 
-
 // Constants used in moving objects from one another when piercing
 const float PERCENT = 0.2f; // usually 0.2  to 0.8
 const float SLOP = 0.01f;   // usually 0.01 to 0.1
 
-// Radian and degrees conversion ratios
-//const float RAD_TO_DEG = 57.2957795f;
-//const float DEG_TO_RAD = 0.0174532925f;
-
 
 /************************************************************************
-*    desc:  Constructer
+*    desc:  Constructor
 ************************************************************************/
 CCollisionManifold::CCollisionManifold()
                   : pRefSprite(NULL),

@@ -2,13 +2,13 @@
 /************************************************************************
 *    FILE NAME:       megatexture.cpp
 *
-*    DESCRIPTION:     Class to hold a mega texture
+*    DESCRIPTION:     Class to create a single texture out of several
+*					  textures. This is used in conjunction with the
+*					  instance mesh.
 ************************************************************************/
 
 // Physical component dependency
 #include <common/megatexture.h>
-
-// Standard lib dependencies
 
 // Boost lib dependencies
 #include <boost/format.hpp>
@@ -42,7 +42,7 @@ const D3DVERTEXELEMENT9 vertexElement[] =
 };
 
 /************************************************************************
-*    desc:  Constructer
+*    desc:  Constructor
 ************************************************************************/
 CMegaTexture::CMegaTexture()
             : VERTEX_COUNT(4),

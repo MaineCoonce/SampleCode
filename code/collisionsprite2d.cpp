@@ -2,13 +2,12 @@
 /************************************************************************
 *    FILE NAME:       collisionsprite.cpp
 *
-*    DESCRIPTION:     Class to hold and handle collision sprite information
+*    DESCRIPTION:     Class to hold and handle collision sprite 
+*					  information.
 ************************************************************************/
 
 // Physical component dependency
 #include <2d/collisionsprite2d.h>
-
-// Standard lib dependencies
 
 // Boost lib dependencies
 #include <boost/format.hpp>
@@ -34,12 +33,13 @@ using namespace std;
 // disable warning about the use of the "this" pointer in the constructor list
 #pragma warning(disable : 4355)
 
+// Conversions between our space and Box2D's space
 const float PX_TO_B2D = 0.1f;
 const float B2D_TO_PX = 10.f;
 
 
 /************************************************************************
-*    desc:  Constructer
+*    desc:  Constructor
 ************************************************************************/
 CCollisionSprite2D::CCollisionSprite2D()
                    : preStepRot(0),
@@ -53,7 +53,7 @@ CCollisionSprite2D::CCollisionSprite2D()
 
 
 /************************************************************************
-*    desc:  Constructer
+*    desc:  Constructor
 *
 *	 param:	CObjectData2D * pObjData - data to intialize with
 *			CObject * pParentObj     - collision sprite's parent
@@ -72,7 +72,7 @@ CCollisionSprite2D::CCollisionSprite2D( CObjectData2D * pObjData, CObject * pPar
 
 
 /************************************************************************
-*    desc:  Constructer
+*    desc:  Constructor
 *
 *	 param:	const CObjectCollisionData2D & colData - data to intialize with
 *			CObject * pParentObj                   - collision sprite's parent
@@ -91,7 +91,7 @@ CCollisionSprite2D::CCollisionSprite2D( const CObjectCollisionData2D & colData, 
 
 
 /************************************************************************
-*    desc:  destructer                                                             
+*    desc:  destructor                                                             
 ************************************************************************/
 CCollisionSprite2D::~CCollisionSprite2D()
 {

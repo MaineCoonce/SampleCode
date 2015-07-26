@@ -2,13 +2,12 @@
 /************************************************************************
 *    FILE NAME:       collisionsprite.h
 *
-*    DESCRIPTION:     Class to hold and handle collision sprite information
+*    DESCRIPTION:     Class to hold and handle collision sprite 
+*					  information.
 ************************************************************************/
 
 #ifndef __new_collision_sprite_h__
 #define __new_collision_sprite_h__
-
-// Physical component dependency
 
 // Standard lib dependencies
 #include <string>
@@ -22,8 +21,6 @@
 #include <common/worldpoint.h>
 #include <common/point.h>
 #include <common/size.h>
-
-// Game dependencies
 
 // Forward declaration(s)
 class CWorldPoint;

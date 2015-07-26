@@ -2,7 +2,9 @@
 /************************************************************************
 *    FILE NAME:       megatexture.h
 *
-*    DESCRIPTION:     Class to hold a mega texture
+*    DESCRIPTION:     Class to create a single texture out of several
+*					  textures. This is used in conjunction with the
+*					  instance mesh.
 ************************************************************************/
 
 #ifndef __mega_texture_h__

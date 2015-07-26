@@ -1,7 +1,8 @@
 /************************************************************************
 *    FILE NAME:       collisionfunc2d.cpp
 *
-*    DESCRIPTION:     2D collision functions
+*    DESCRIPTION:     Standalone 2D collision functions used for 
+*					  collision resolution.
 ************************************************************************/  
 
 // Physical component dependency
@@ -16,9 +17,6 @@
 #include <common/collisionvertex.h>
 #include <common/collisionbody.h>
 #include <misc/settings.h>
-
-// Required namespace(s)
-//using namespace std;
 
 // Turn off the data type conversion warning (ie. int to float, float to int etc.)
 #pragma warning(disable : 4244)

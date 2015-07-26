@@ -2,7 +2,7 @@
 *    FILE NAME:     instancemesh2d.h
 *
 *    DESCRIPTION:   Class to render multiple 2D sprites using a single
-*					draw call
+*					draw call.
 ************************************************************************/
 
 #ifndef __instance_mesh_2d_h__

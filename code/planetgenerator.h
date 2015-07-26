@@ -2,7 +2,8 @@
 /************************************************************************
 *    FILE NAME:       planetgenerator.h
 *
-*    DESCRIPTION:     Generator class to generate the space background
+*    DESCRIPTION:     Generator class to generate the planets in the
+*					  background.
 ************************************************************************/
 
 #ifndef __planet_generator_h__

@@ -2,7 +2,9 @@
 /************************************************************************
 *    FILE NAME:       playershipai.h
 *
-*    DESCRIPTION:     Class player ship AI
+*    DESCRIPTION:     Class to apply changes to the sprite in which the
+*					  player controls using a gamepad, keyboard, and 
+*					  mouse.
 ************************************************************************/
 
 #ifndef __player_ship_ai_h__

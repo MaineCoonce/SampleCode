@@ -2,7 +2,7 @@
 *    FILE NAME:		instancemesh2d.cpp
 *
 *    DESCRIPTION:   Class to render multiple 2D sprites using a single
-*					draw call
+*					draw call.
 ************************************************************************/
 
 // Physical component dependency
@@ -59,7 +59,7 @@ const D3DVERTEXELEMENT9 vertexElement[] =
 };
 
 /************************************************************************
-*    desc:  Constructer                                                             
+*    desc:  Constructor                                                             
 ************************************************************************/
 CInstanceMesh2D::CInstanceMesh2D()
                : instanceCount(0),
@@ -67,7 +67,7 @@ CInstanceMesh2D::CInstanceMesh2D()
                  FACE_COUNT(2),
                  INDEX_COUNT(FACE_COUNT * 3)
 {
-}   // Constructer
+}   // Constructor
 
 
 /************************************************************************

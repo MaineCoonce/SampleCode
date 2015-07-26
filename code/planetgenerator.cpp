@@ -1,7 +1,8 @@
 /************************************************************************
 *    FILE NAME:       planetgenerator.cpp
 *
-*    DESCRIPTION:     Generator class to generate the space background
+*    DESCRIPTION:     Generator class to generate the planets in the
+*					  background.
 ************************************************************************/           
 
 // Physical dependency
@@ -52,7 +53,7 @@ const int PLANET_COLOR_DIAMETER = PLANET_SECTOR_SIZE * 3;
 
 
 /************************************************************************
-*    desc:  Constructer
+*    desc:  Constructor
 ************************************************************************/
 CPlanetGenerator::CPlanetGenerator()
                 : CGenerator(),

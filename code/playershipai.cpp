@@ -2,7 +2,9 @@
 /************************************************************************
 *    FILE NAME:       playershipai.cpp
 *
-*    DESCRIPTION:     Class player ship AI
+*    DESCRIPTION:     Class to apply changes to the sprite in which the
+*					  player controls using a gamepad, keyboard, and 
+*					  mouse.
 ************************************************************************/
 
 // Physical component dependency
@@ -42,7 +44,7 @@ const float ANGULAR_ACCELERATION = 0.005f;
 
 
 /************************************************************************
-*    desc:  Constructer
+*    desc:  Constructor
 ************************************************************************/
 CPlayerShipAI::CPlayerShipAI( CActorSprite2D * _pActor )
              : iAIBase(_pActor),

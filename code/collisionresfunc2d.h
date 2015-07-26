@@ -1,7 +1,8 @@
 /************************************************************************
 *    FILE NAME:       collisionresfunc2d.h
 *
-*    DESCRIPTION:     2D collision functions
+*    DESCRIPTION:     Standalone 2D collision functions used for 
+*					  collision resolution.
 ************************************************************************/  
 
 #ifndef __collision_res_func_2d_h__
