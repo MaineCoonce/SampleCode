@@ -3,7 +3,7 @@
 *    FILE NAME:       collisionmanifold.h
 *
 *    DESCRIPTION:     Class to handle the collision interactions between
-*					  two sprites.
+*                     two sprites.
 ************************************************************************/
 
 #ifndef __collision_manifold_h__

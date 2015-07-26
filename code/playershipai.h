@@ -3,8 +3,8 @@
 *    FILE NAME:       playershipai.h
 *
 *    DESCRIPTION:     Class to apply changes to the sprite in which the
-*					  player controls using a gamepad, keyboard, and 
-*					  mouse.
+*                     player controls using a gamepad, keyboard, and 
+*                     mouse.
 ************************************************************************/
 
 #ifndef __player_ship_ai_h__

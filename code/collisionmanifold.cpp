@@ -3,7 +3,7 @@
 *    FILE NAME:       collisionmanifold.cpp
 *
 *    DESCRIPTION:     Class to handle the collision interactions between
-*					  two sprites.
+*                     two sprites.
 ************************************************************************/
 
 // Physical component dependency

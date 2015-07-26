@@ -2,7 +2,7 @@
 *    FILE NAME:       planetgenerator.cpp
 *
 *    DESCRIPTION:     Generator class to generate the planets in the
-*					  background.
+*                     background.
 ************************************************************************/           
 
 // Physical dependency

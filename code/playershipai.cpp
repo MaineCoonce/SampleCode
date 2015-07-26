@@ -3,8 +3,8 @@
 *    FILE NAME:       playershipai.cpp
 *
 *    DESCRIPTION:     Class to apply changes to the sprite in which the
-*					  player controls using a gamepad, keyboard, and 
-*					  mouse.
+*                     player controls using a gamepad, keyboard, and 
+*                     mouse.
 ************************************************************************/
 
 // Physical component dependency

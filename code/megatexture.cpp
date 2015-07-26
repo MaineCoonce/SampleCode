@@ -3,8 +3,8 @@
 *    FILE NAME:       megatexture.cpp
 *
 *    DESCRIPTION:     Class to create a single texture out of several
-*					  textures. This is used in conjunction with the
-*					  instance mesh.
+*                     textures. This is used in conjunction with the
+*                     instance mesh.
 ************************************************************************/
 
 // Physical component dependency

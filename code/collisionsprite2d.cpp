@@ -3,7 +3,7 @@
 *    FILE NAME:       collisionsprite.cpp
 *
 *    DESCRIPTION:     Class to hold and handle collision sprite 
-*					  information.
+*                     information.
 ************************************************************************/
 
 // Physical component dependency

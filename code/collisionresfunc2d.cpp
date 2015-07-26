@@ -2,7 +2,7 @@
 *    FILE NAME:       collisionfunc2d.cpp
 *
 *    DESCRIPTION:     Standalone 2D collision functions used for 
-*					  collision resolution.
+*                     collision resolution.
 ************************************************************************/  
 
 // Physical component dependency

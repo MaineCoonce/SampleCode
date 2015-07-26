@@ -3,7 +3,7 @@
 *    FILE NAME:       collisionsprite.h
 *
 *    DESCRIPTION:     Class to hold and handle collision sprite 
-*					  information.
+*                     information.
 ************************************************************************/
 
 #ifndef __new_collision_sprite_h__

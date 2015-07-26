@@ -1,8 +1,8 @@
 /************************************************************************
-*    FILE NAME:		instancemesh2d.cpp
+*    FILE NAME:		  instancemesh2d.cpp
 *
-*    DESCRIPTION:   Class to render multiple 2D sprites using a single
-*					draw call.
+*    DESCRIPTION:     Class to render multiple 2D sprites using a single
+*                     draw call.
 ************************************************************************/
 
 // Physical component dependency
